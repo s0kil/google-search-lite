@@ -4,6 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@0.6.0/modern-normalize.min.css"
+    />
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      #search {
+        margin-top: 200px;
+      }
+
+      #search img {
+        display: block;
+        margin: 20px auto;
+      }
+
+      #search #q {
+        width: 400px;
+        height: 40px;
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body>
+    <main id="search">
+      <img src="googlelogo.png" alt="Google Logo" />
+      <form action="https://www.google.com/search" method="GET">
+        <input type="search" name="q" id="q" />
+      </form>
+    </main>
+  </body>
 </html>
