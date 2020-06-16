@@ -6,6 +6,11 @@
     <title>Google</title>
 
     <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+    />
+
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@0.6.0/modern-normalize.min.css"
     />
@@ -18,16 +23,13 @@
         display: flex;
         justify-content: center;
       }
-
       #search {
         margin-top: 200px;
       }
-
       #search img {
         display: block;
         margin: 20px auto;
       }
-
       #search #q {
         width: 400px;
         height: 40px;
@@ -37,8 +39,11 @@
 
   <body>
     <main id="search">
-      <img src="googlelogo.png" alt="Google Logo" />
-      <form action="https://www.google.com/search" method="GET">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+        alt="Google Logo"
+      />
+      <form action="https://www.google.com/search" method="GET" target="_blank">
         <input type="search" name="q" id="q" />
       </form>
     </main>
